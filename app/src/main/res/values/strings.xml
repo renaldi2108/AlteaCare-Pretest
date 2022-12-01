@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AlteaCare Pretest</string>
+    <string name="search">Search</string>
+    <string name="txt_hospital">Select Hospitals</string>
+    <string name="txt_specialization">Specialization</string>
+    <string name="doctor_name">dr. Leony Nerry Sabatini Tambunan</string>
+    <string name="txt_hospital_specialis">Mitra Keluarga Bintaro - Dokter Umum</string>
+    <string name="txt_about_preview">dr. Leony Nerry Sabatini Tambunan adalah Dokter Umum yang telah menyelesaikan pendidikan di Universitas Pelita Harapan. Beliau dapat memberikan pelayanan medis / konsultasi terkait kondisi penyakit umum.</string>
+    <string name="txt_price">Rp 160.000</string>
+</resources>

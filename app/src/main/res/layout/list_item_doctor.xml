@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="?selectableItemBackground"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_doctor"
+            android:layout_width="75.37dp"
+            android:layout_height="92.65dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scaleType="centerCrop" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/iv_doctor"
+            android:textSize="14sp"
+            tools:text="@string/doctor_name"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_hospital_specialis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            app:layout_constraintLeft_toRightOf="@+id/iv_doctor"
+            android:textSize="10sp"
+            tools:text="@string/txt_hospital_specialis"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_about"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_hospital_specialis"
+            app:layout_constraintLeft_toRightOf="@+id/iv_doctor"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="@string/txt_about_preview"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            tools:text="@string/txt_price" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
